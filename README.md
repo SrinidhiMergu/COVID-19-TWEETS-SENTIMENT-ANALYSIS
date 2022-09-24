@@ -1,10 +1,9 @@
 # COVID-19 Tweets Sentiment Analysis
 
-Developed sentiment analysis model using Natural Language Processing to understand relationship between public vaccination programs and public reception.
+Developed classification model to understand the sentiment towards covid-19 tweets 
 
 Through sentiment analysis we looked for things such as 
-- Sentiment Polarity like whether the tweet is neutral/positive/negative in relationship with each vaccinend
-- Evolution of sentiment in time
+- Sentiment Polarity like whether the tweet is neutral/positive/negative in relationship with each vaccine
 
 #### FEATURES IN TRAIN_TWEETS DATASET:
 - Text_id: order no. of tweet
@@ -12,7 +11,7 @@ Through sentiment analysis we looked for things such as
 - Selected_text: important part of given tweet
 - Sentiment: neutral/positive/negative
 
-#### FEATURES IN VACCINATION TEETS DATASET
+#### FEATURES IN VACCINATION TWEETS DATASET
 - id
 - user_name
 - user_location
@@ -43,8 +42,7 @@ Through sentiment analysis we looked for things such as
     2. Classification report
     3. confusion matrix
 - Applied vaccination tweets dataset to the model
-- Clean Data (remove duplicates, fill null values0
+- Clean Data (remove duplicates, fill null values
 - Obtained correlatioin matrix (heat map)
 - Performed sentiment analysis
 - Analysed tweets using WordClouds
-- Performed timeline analysis
